@@ -1,0 +1,40 @@
+body {
+  background-color: purple;
+  color: white;
+
+}
+
+.term {
+
+}
+
+.cardBox{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: 100%;
+
+}
+
+.card{
+  display: flex;
+  border-radius: 25px;
+  background-color: white;
+  height: 250px;
+  width: 325px;
+  border: 10px;
+  border-color: grey;
+  border-style: solid;
+  color: purple;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.card answer {
+  display: none;
+}

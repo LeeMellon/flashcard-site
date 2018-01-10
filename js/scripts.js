@@ -1,9 +1,7 @@
+
 $(function(){
   $(".card").click(function(){
-    $(this).toggleClass("answer");
+    $(this).children(".front").toggle();
+    $(this).children(".back").toggle();
   });
 });
-//
-// // $(".card").click(function(){
-// //   $(this).toggleClass("term");
-// // });

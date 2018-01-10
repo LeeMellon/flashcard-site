@@ -9,19 +9,19 @@ body {
 }
 
 .cardBox{
-  align-self: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  height: 300px;
-  width: 100%;
-
+  width: 85%;
+  height: inherit;
 }
 
 .card{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border-radius: 25px;
   background-color: white;
   height: 250px;
@@ -30,11 +30,14 @@ body {
   border-color: grey;
   border-style: solid;
   color: purple;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   font-size: 30px;
 }
 
-.card answer {
+.front{
+
+}
+.back{
   display: none;
 }
